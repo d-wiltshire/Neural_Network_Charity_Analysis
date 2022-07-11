@@ -2,9 +2,20 @@
 
 ## Optimization
 
-Before optimizing, the loss after 50 epochs was .55, and the accuracy was .73. The goal of optimizing was to achieve a target predictive accuracy higher than 75%. 
+Before optimizing, the loss after 50 epochs was .55, and the accuracy was .73, as depicted below:
+
+![19originallosserror](https://user-images.githubusercontent.com/100863488/178315798-90d600af-894e-437b-b54f-ae2dcd71f1cf.png)
+
+
+The goal of optimizing was to achieve a target predictive accuracy higher than 75%. 
 
 The steps taken to optimize the model included:
+
+* Increasing the number of units in the second hidden layer from 5 to 10. This resulted in a loss and accuracy very similar to the original, as depicted below:
+
+![191sttry1](https://user-images.githubusercontent.com/100863488/178316451-cc0c5a97-dcd1-40ce-99e3-f0e0bbcf0f85.png)
+
+![191sttry](https://user-images.githubusercontent.com/100863488/178316190-513dddc1-df32-4bb9-8c39-3e6908790cb6.png)
 
 
 
