@@ -33,6 +33,13 @@ The steps taken to optimize the model included:
 
 
 
+### Optimization Summary
+
+None of these three attempts at optimization achieved a target predictive accuracy as high as the original model, but all were close to one another. 
+
+Please note that the three attempts were performed independently of one another, resetting the code to the original model before making the next optimization attempt. The Jupyter Notebook optimization file included in this repository combines the code of all three attempts. 
+
+
 Adjusting the input data to ensure that there are no variables or outliers that are causing confusion in the model, such as:
 Dropping more or fewer columns.
 Creating more bins for rare occurrences in columns.
