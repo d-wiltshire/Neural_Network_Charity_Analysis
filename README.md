@@ -18,6 +18,12 @@ The steps taken to optimize the model included:
 ![191sttry](https://user-images.githubusercontent.com/100863488/178316190-513dddc1-df32-4bb9-8c39-3e6908790cb6.png)
 
 
+* Changing the activation function from ReLu to Tanh in both the first and second hidden layers. Again, the loss and accuracy were very similar, as depicted below:
+
+![192ndtry1](https://user-images.githubusercontent.com/100863488/178317219-baf6373f-1839-4b45-af89-02020672bed3.png)
+
+![192ndtry2](https://user-images.githubusercontent.com/100863488/178317230-63a81d07-1a84-4edd-837f-1e6442d009c8.png)
+
 
 Adjusting the input data to ensure that there are no variables or outliers that are causing confusion in the model, such as:
 Dropping more or fewer columns.
