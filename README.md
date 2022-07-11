@@ -20,10 +20,14 @@ The dataset is a CSV containing more than 34,000 organizations that have receive
 
 ## Compiling, Training, and Evaluating the Model
 * How many neurons, layers, and activation functions did you select for your neural network model, and why?
+  * The initial model included two hidden layers (the first with 16 neurons, and the second with 5). Both used the ReLu activation function. Two hidden layers were used initially to take advantage of the benefit of an additional hidden layer
 
 * Were you able to achieve the target model performance?
+  * The optimization steps taken did not achieve target model performance (75%). 
 
-What steps did you take to try and increase model performance?
+* What steps did you take to try and increase model performance? 
+  * Please see "Optimization" below.
+
 
 
 ## Optimization
