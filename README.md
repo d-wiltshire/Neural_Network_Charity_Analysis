@@ -1,5 +1,31 @@
 # Neural_Network_Charity_Analysis
 
+## Overview
+
+This challenge involved using a deep learning model to predict a binary target outcome. The data come from a fictitious philanthropy organization, Alphabet Soup, which is aiming to improve the utility of its donated funds by predicting which applicants will be successful, if funded.
+
+The dataset is a CSV containing more than 34,000 organizations that have received funding from Alphabet Soup. The columns include: EIN and NAME (Identification columns), Application Type, Affiliation (Industry sector), Government organization classification, Use case for funding, Organization type, Status (Active or Inactive), Income classification, Special Considerations, Funding amount requested, and Success (whether the money previously funded had been used effectively). 
+
+
+## Data Preprocessing
+* What variable(s) are considered the target(s) for your model? 
+*   The target is the IS_SUCCESSFUL column, which indicates whether the money previously funded had been used effectively.
+
+* What variable(s) are considered to be the features for your model?
+*   The features included:  Application Type, Affiliation (Industry sector), Government organization classification, Use case for funding, Organization type, Status (Active or Inactive), Income classification, Special Considerations, Funding amount requested
+
+* What variable(s) are neither targets nor features, and should be removed from the input data?
+*   The EIN and NAME columns were removed from the input data, as these contained unique organization identifiers.
+
+
+## Compiling, Training, and Evaluating the Model
+* How many neurons, layers, and activation functions did you select for your neural network model, and why?
+
+* Were you able to achieve the target model performance?
+
+What steps did you take to try and increase model performance?
+
+
 ## Optimization
 
 Before optimizing, the loss after 50 epochs was .55, and the accuracy was .73, as depicted below:
@@ -32,7 +58,7 @@ The steps taken to optimize the model included:
 ![193rdtry2](https://user-images.githubusercontent.com/100863488/178319353-1fa72f40-8d34-46cc-aedc-9ef6680b708e.png)
 
 
-
+## Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
 ### Optimization Summary
 
 None of these three attempts at optimization achieved a target predictive accuracy as high as the original model, but all were close to one another. 
@@ -40,11 +66,3 @@ None of these three attempts at optimization achieved a target predictive accura
 Please note that the three attempts were performed independently of one another, resetting the code to the original model before making the next optimization attempt. The Jupyter Notebook optimization file included in this repository combines the code of all three attempts. 
 
 
-Adjusting the input data to ensure that there are no variables or outliers that are causing confusion in the model, such as:
-Dropping more or fewer columns.
-Creating more bins for rare occurrences in columns.
-Increasing or decreasing the number of values for each bin.
-Adding more neurons to a hidden layer.
-Adding more hidden layers.
-Using different activation functions for the hidden layers.
-Adding or reducing the number of epochs to the training regimen.
