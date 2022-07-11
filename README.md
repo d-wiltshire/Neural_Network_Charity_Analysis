@@ -9,13 +9,13 @@ The dataset is a CSV containing more than 34,000 organizations that have receive
 
 ## Data Preprocessing
 * What variable(s) are considered the target(s) for your model? 
-*   The target is the IS_SUCCESSFUL column, which indicates whether the money previously funded had been used effectively.
+ * The target is the IS_SUCCESSFUL column, which indicates whether the money previously funded had been used effectively.
 
 * What variable(s) are considered to be the features for your model?
-*   The features included:  Application Type, Affiliation (Industry sector), Government organization classification, Use case for funding, Organization type, Status (Active or Inactive), Income classification, Special Considerations, Funding amount requested
+ * The features included:  Application Type, Affiliation (Industry sector), Government organization classification, Use case for funding, Organization type, Status (Active or Inactive), Income classification, Special Considerations, Funding amount requested
 
 * What variable(s) are neither targets nor features, and should be removed from the input data?
-*   The EIN and NAME columns were removed from the input data, as these contained unique organization identifiers.
+ * The EIN and NAME columns were removed from the input data, as these contained unique organization identifiers.
 
 
 ## Compiling, Training, and Evaluating the Model
