@@ -25,6 +25,14 @@ The steps taken to optimize the model included:
 ![192ndtry2](https://user-images.githubusercontent.com/100863488/178317230-63a81d07-1a84-4edd-837f-1e6442d009c8.png)
 
 
+* Dropping the "ASK_AMT" column from the original dataframe (which required also changing the input dimensions of our model). The accuracy went up slightly with this adjustment.
+
+![193rdtry1](https://user-images.githubusercontent.com/100863488/178319335-a8c76ac5-94cb-400f-bc01-fe7dab22e21c.png)
+
+![193rdtry2](https://user-images.githubusercontent.com/100863488/178319353-1fa72f40-8d34-46cc-aedc-9ef6680b708e.png)
+
+
+
 Adjusting the input data to ensure that there are no variables or outliers that are causing confusion in the model, such as:
 Dropping more or fewer columns.
 Creating more bins for rare occurrences in columns.
