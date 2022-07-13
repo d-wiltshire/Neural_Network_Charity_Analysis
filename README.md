@@ -53,23 +53,26 @@ The steps taken to optimize the model included:
 
 * Changing the activation function from ReLu to Tanh in both the first and second hidden layers. Again, the loss and accuracy were very similar, as depicted below:
 
-![192ndtry1](https://user-images.githubusercontent.com/100863488/178317219-baf6373f-1839-4b45-af89-02020672bed3.png)
+![image](https://user-images.githubusercontent.com/100863488/178788000-c23a5d5c-2ac9-4740-b3b5-e4078ea0185d.png)
 
-![192ndtry2](https://user-images.githubusercontent.com/100863488/178317230-63a81d07-1a84-4edd-837f-1e6442d009c8.png)
-
-
-* Dropping the "ASK_AMT" column from the original dataframe (which required also changing the input dimensions of our model). The accuracy went up slightly with this adjustment.
-
-![193rdtry1](https://user-images.githubusercontent.com/100863488/178319335-a8c76ac5-94cb-400f-bc01-fe7dab22e21c.png)
-
-![193rdtry2](https://user-images.githubusercontent.com/100863488/178319353-1fa72f40-8d34-46cc-aedc-9ef6680b708e.png)
+![image](https://user-images.githubusercontent.com/100863488/178788114-d44ef55f-5f69-4581-8c29-9576857c5ee7.png)
 
 
-## Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
-### Optimization Summary
 
-None of these three attempts at optimization achieved a target predictive accuracy as high as the original model, but all were close to one another. 
 
-Please note that the three attempts were performed independently of one another, resetting the code to the original model before making the next optimization attempt. The Jupyter Notebook optimization file included in this repository combines the code of all three attempts. 
+* Increasing the number of epochs to 100. Again, the loss and accuracy were very similar, as depicted below:
+
+![image](https://user-images.githubusercontent.com/100863488/178788970-45488904-8376-426b-bccd-df328c3d7526.png)
+
+![image](https://user-images.githubusercontent.com/100863488/178789026-ce9ede28-ffd5-40d6-9c00-5ee7849a7e9f.png)
+
+
+
+
+## Summary
+
+None of these three attempts at optimization achieved a target predictive accuracy as high as the original model, but all were very close to one another. The accuracy of this model achieved was around 73% in all attempts.
+
+If the needed accuracy score is 75%, I would encourage the use of other machine learning models on this dataset, to see whether any could help provide greater accuracy. For example, using Random Forest would allow for a better understanding of feature importances, so that we could reduce the number of features in this dataset in an effective way for further trials (whether using neural networks or other machine learning options).
 
 
