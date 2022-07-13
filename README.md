@@ -71,7 +71,7 @@ The steps taken to optimize the model included:
 
 ## Summary
 
-None of these three attempts at optimization achieved a target predictive accuracy as high as the original model, but all were very close to one another. The accuracy of this model achieved was around 73% in all attempts.
+None of these three attempts at optimization achieved a target predictive accuracy as high as the goal (75%), but all were very close to one another. The revision to Tanh in the first and second hidden layers and increasing the number of epochs increased the accuracy score very slightly from the original test. The accuracy of this model achieved was around 73% in all attempts.
 
 If the needed accuracy score is 75%, I would encourage the use of other machine learning models on this dataset, to see whether any could help provide greater accuracy. For example, using Random Forest would allow for a better understanding of feature importances, so that we could reduce the number of features in this dataset in an effective way for further trials (whether using neural networks or other machine learning options).
 
